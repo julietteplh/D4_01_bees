@@ -81,39 +81,42 @@ span{
   font-family: Raleway;
 }
 
-.product-list ul{
-  display: flex;
-/*  flex-wrap: wrap;
-  justify-content: space-evenly; */
-  padding: 40px;
-}
-
-.product-list li {
-margin: 20px;
-}
-
-.cartouche {
-  background: #FFF;
-  border-radius: 40px;
-  padding: 40px;
-  flex-basis: 200px;
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
-.explication{
-  flex-grow: 2;
-  flex-basis: 400px;
-    flex-shrink: 1;
-}
-
-.product-list li video{
+.parent img{
   border-radius: 40px;
   display: block;
-  max-width: 640px;
+  max-width: 500px;
 }
 
+.parent {
+  display : flex;
+  flex-wrap : wrap;
+  justify-content : space-evenly;
+  padding : 2em;
+  color : #fff;
+  padding: 70px;
+}
 
+.explanation {
+  flex-basis : 320px;
+  flex-grow : 1;
+  border-radius: 40px;
+  background: #FFF;
+  color: black;
+  padding: 40px;
+  margin-right:50px;
+  margin-bottom:50px;
+}
+
+.media {
+   flex-basis : 300px;
+   flex-grow : 2;
+}
+
+.media video {
+  display : block;
+  width : 100%;
+  border-radius: 40px;
+}
 
 * {box-sizing:border-box}
 
