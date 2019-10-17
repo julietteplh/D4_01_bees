@@ -128,6 +128,8 @@ span{
 
 .slideshow-container a{
     text-decoration: none;
+    background: white;
+    box-shadow: 5px 2px 12px #CECECE;
 }
 
 /* Next & previous buttons */
