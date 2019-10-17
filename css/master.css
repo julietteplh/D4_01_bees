@@ -107,6 +107,12 @@ margin: 20px;
     flex-shrink: 1;
 }
 
+.product-list li img{
+  border-radius: 40px;
+  display: block;
+  max-width: 500px;
+}
+
 .product-list li video{
   border-radius: 40px;
   display: block;
